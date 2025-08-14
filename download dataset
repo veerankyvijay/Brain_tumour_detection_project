@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download selected version
+path = kagglehub.dataset_download("sartajbhuvaji/brain-tumor-classification-mri/versions/2")
+
+print("Path to dataset files:", path)
